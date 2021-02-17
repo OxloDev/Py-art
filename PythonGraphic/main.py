@@ -13,8 +13,8 @@ Var1 = 0
 Var2 = 0 
 
 #generates random numbers
-Rand1 = random.randint(1, 4)
-Rand2 = random.randint(4, 7)
+Rand1 = random.uniform(1.0, 4.0)
+Rand2 = random.uniform(4.0, 7.0)
 
 t.speed(0)
 t.penup()
