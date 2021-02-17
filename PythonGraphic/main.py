@@ -13,10 +13,8 @@ Var1 = 0
 Var2 = 0 
 
 #generates random numbers
-list1 = [1, 1.2, 1.5, 1.7, 2, 2.2, 2.5, 2.7, 3, 3.2, 3.5, 3.7, 4]
-Rand1 = (random.choice(list1))
-list2 = [4, 4.2, 4.5 , 4.7, 5, 5.2 , 5.5, 5.7, 6, 6.2, 6.5, 6.7, 7]
-Rand2 = (random.choice(list2))
+Rand1 = random.randint(1, 4)
+Rand2 = random.randint(4, 7)
 
 t.speed(0)
 t.penup()
